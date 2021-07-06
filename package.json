@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "private": true,
+  "workspaces": [
+    "server",
+    "client",
+    "e2e"
+  ],
+  "scripts": {
+    "build:client": "yarn workspace codebase-client build",
+    "dev": "yarn workspace codebase-server dev",
+    "dev:debug": "yarn workspace codebase-server dev:debug",
+    "heroku-postbuild": "yarn workspace codebase-client build",
+    "start": "yarn workspace codebase-server start"
+  },
+  "engines": {
+    "node": "^14.15"
+  }
+}
