@@ -1,5 +1,5 @@
 import express from "express"
-import Unicorn from "./../models/Unicorn.js"
+import Unicorn from "./../models/index.js"
 
 const unicornsRouter = new express.Router()
 
