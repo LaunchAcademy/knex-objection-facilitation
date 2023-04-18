@@ -1,7 +1,7 @@
 const Model = require("./Model.js")
 
 class Unicorn extends Model {
-  static get tableName(){
+  static tableName() {
     return "unicorns"
   }
 }
