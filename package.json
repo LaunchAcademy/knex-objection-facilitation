@@ -14,6 +14,6 @@
     "start": "yarn workspace codebase-server start"
   },
   "engines": {
-    "node": "^14.15"
+    "node": "^16.18"
   }
 }
